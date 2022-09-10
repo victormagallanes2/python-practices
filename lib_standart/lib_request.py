@@ -2,6 +2,15 @@ from requests.auth import HTTPBasicAuth
 from json import loads, dumps
 import requests
 
+
+# consulta simple
+
+#response = requests.get('https://api.github.com')
+#print(response.content)
+
+
+
+
 class BajarDatos():
     def json(self):
         r = requests.get('http://35.185.220.144:9200/vpro/_search',
@@ -16,3 +25,5 @@ class BajarDatos():
 Object = BajarDatos()
 # Object.html()
 Object.json()
+
+
