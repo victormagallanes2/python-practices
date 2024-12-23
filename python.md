@@ -25,6 +25,18 @@ which python3
 virtualenv env-crawler -p /usr/bin/python3
 
 
+Powershell
+
+Creamos entorno:
+
+  python -m venv C:\code\my-env
+
+Activamos entorno:
+
+
+  cd C:\code\my-env\Scripts\
+  .\activate
+
 
 Comandos:
 
