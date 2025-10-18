@@ -37,6 +37,14 @@ Activamos entorno:
   cd C:\code\my-env\Scripts\
   .\activate
 
+Entorno usando uv
+
+uv venv
+
+Activamos entorno:
+
+.venv\Scripts\activate
+
 
 Comandos:
 
